@@ -1,0 +1,2 @@
+ts-node ./js/packages/cli/src/candy-machine-v2-cli.ts upload -e localnet -k ~/.config/solana/id.json -cp ./config.json -c example ./assets
+ts-node ./js/packages/cli/src/candy-machine-v2-cli.ts upload -e testnet -k ~/.config/solana/testnet.json -cp ./config.json -c candy_example ./assets
